@@ -1,3 +1,4 @@
+feature/env-contract-supabase-healthcheck
 import { getEnvSoft } from '../../../src/env'
 import { createServerClient } from '../../../src/lib/supabase'
 import { cookies } from 'next/headers'
@@ -49,4 +50,10 @@ export async function GET() {
     },
     db: dbHealth
   })
+
+export const runtime = 'nodejs'
+
+export async function GET() {
+  return Response.json({ ok: true })
+ main
 }
