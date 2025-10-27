@@ -13,6 +13,10 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+feature/env-contract-supabase-healthcheck
+    "@supabase/ssr": "^0.7.0",
+
+main
     "@supabase/supabase-js": "^2.45.4",
     "@uploadthing/react": "^6.7.2",
     "autoprefixer": "^10.4.21",
